@@ -1,0 +1,99 @@
+ body
+{
+    margin: 0;
+    width: 100%;
+    padding: 0;
+}
+.Container
+{
+    margin: 0;
+    padding: 0;
+}
+header
+{ 
+  
+    background: url(images/banner.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;        -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+      
+    height: 400px;
+    width: 100%;
+    color: whitesmoke;
+}
+.header
+{
+    padding-top: 150px;
+}
+.header1
+{
+    font-family: 'Pacifico', cursive;
+    font-size: 4em;
+}
+.header2
+{
+    font-family: 'Raleway', sans-serif;
+    font-size:13px;
+}
+.temp
+{
+    font-family: 'Raleway', sans-serif;
+    color: whitesmoke;
+    text-decoration: underline;
+}
+.temp:hover
+{
+    color: red;
+    text-decoration: none;
+    transition: 0.7s ease;
+}
+#j-btn
+{
+background-color: white;
+}
+#learn-more-btn
+{
+background-color: white;
+border: black 1px solid;
+color: black;
+}
+#learn-more-btn:hover
+{
+    border:red 1px solid;
+color:red;
+}
+.cards-row
+{
+    margin-left:50px;
+}
+#padC
+{
+    padding: 20px;
+}
+#hrline
+{
+    border: 2px white solid;
+    width: 300px;
+}
+#icons-footer
+{
+    list-style: none;
+    display: flex;
+}
+li
+{
+    padding: 20px;
+}
+.fa
+{
+    color: grey;
+}
+.fa:hover
+{
+    color:red;
+}
+.copyright
+{
+    font-size:10px;
+    color: grey;
+}
